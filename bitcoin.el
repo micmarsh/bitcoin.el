@@ -43,7 +43,7 @@
 
 (defun-out btc-balance (balance))
 
-(defun-out btc-first-address (first-address))
+(defun-out btc-address (first-address))
 
 (defun btc-send (address amount)
   (interactive "sEnter address to send to: \nnEnter amount to send: ")
